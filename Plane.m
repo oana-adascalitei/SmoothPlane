@@ -1,3 +1,8 @@
+//the functions DEE, ENN, ENNstar, ALFixedPointsCMOrder,CMPointsCardinality
+//were taken from the code accompanying the paper 
+//"RATIONAL POINTS ON ATKIN-LEHNER QUOTIENTS OF GEOMETRICALLY HYPERELLIPTIC SHIMURA CURVES" 
+//by Oana Padurariu and Ciaran Schembri
+
 allprod := function(seq)
 	if seq eq [] then return 1;
 	else return &*seq;
